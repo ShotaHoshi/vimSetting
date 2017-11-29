@@ -10,7 +10,6 @@ set laststatus=2                       " ステータス行を常に表示
 set cmdheight=2                        " メッセージ表示欄を２行に設定
 set showmatch                          " 対応する括弧を強調表示
 set helpheight=999                     " ヘルプを画面全体
-" set list                               " 不可視文字を表示
 
 """""""" タブ/インデントの設定
 set expandtab                          " タブ入力を複数の空白入力に置き換える
@@ -50,9 +49,9 @@ nnoremap <Right> <Nop>
 colorscheme koehler                   " setting colorscheme
 
 """"""" プラグイン(vim-plug)
-call plug#begin('~/.vim/plugged')
-Plug 'scrooloose/nerdtree'
-Plug 'Shougo/unite.vim'
-Plug 'itchyny/lightline.vim'
-Plug 'lambdalisue/gina.vim'
-call plug#end()
+"call plug#begin('~/.vim/plugged')
+"Plug 'scrooloose/nerdtree'
+"Plug 'Shougo/unite.vim'
+"Plug 'itchyny/lightline.vim'
+"Plug 'lambdalisue/gina.vim'
+"call plug#end()
